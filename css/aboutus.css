@@ -1,0 +1,57 @@
+body{
+    position: relative;
+    background-color: black;
+    margin: 0;
+}
+.red{
+    background-color:goldenrod ;
+    height: 150px;
+    width: 877px;
+    position: relative;
+}
+.h{
+    margin: 0;
+    font-size: 70px;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.im{
+    position: absolute;
+    right: 0;
+}
+p{
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.bkq{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+.vl {
+    border-left: 3px solid goldenrod;
+    height: 80px;
+    position: absolute;
+    top:475px;
+    left: 400px;
+}
+.im2{
+    width: 7%;
+    margin: 0 10px;
+}
+.imd{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+.bk{
+    position: absolute;
+    top: 725px;
+    left: 50px;
+
+}

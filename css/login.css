@@ -1,0 +1,176 @@
+*{font-family: Candara;}
+body{
+    padding-top: 80px;
+    background-image: url(../images/login/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.big{
+    margin: 50px auto;
+    height: 520px;
+    width: 1000px;
+    background-color: rgba(0,0,0,0.5)
+}   
+
+.container{
+    height: 520px;
+    width: 1000px;
+    position: relative;
+}
+
+.text{
+    font-size: 60px;
+    margin-left: 90px;
+    margin-top: 90px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    position: absolute
+}
+/*.email,.password{
+    color: white;
+    margin-left: 90px;
+    margin-top: 195px;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.email{
+    border-right: 1px solid white;width: 500px;height: 240px;padding-top: 5px
+}
+.password{
+    margin-top: 270px;
+}
+*/
+.inputone,.inputtwo,.inputthree{
+    margin-left: 90px;
+    margin-top: 220px;
+    position: absolute;
+}
+
+input{
+    padding: 10px;
+    width: 250px
+}
+
+
+.inputtwo{
+    margin-top: 280px;
+
+}
+
+
+.inputthree{
+    margin-top: 350px;
+    position: absolute;
+    
+    
+}
+
+.submit{
+    margin-left: 40%;
+    width: 100px;
+    border:none;
+    border-radius: 20px;
+    border:1px solid goldenrod;
+    background-color: transparent;
+    padding: 5px;
+    color: goldenrod;
+    font-size: 18px;
+    cursor: pointer;
+}
+.submit:hover
+{
+    color: whitesmoke;
+    background-color: goldenrod;
+}
+
+
+/*.left{border: 2px solid white;
+      width: 600px;
+      height: 500px;
+      position: absolute;margin-top: 200px
+}*/
+
+.or{color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    position: absolute;
+    top:275px;left: 573px;background-color: black
+}
+.forget {display: block; margin-left: 70px; margin-top: 14px; font-size: 14px;}
+.forget, .signup{
+    color: white;
+    text-decoration: none;
+}
+.forget:hover , .signup:hover
+{
+    color: gold;
+    
+}
+
+
+.button1{background-color: navy;}
+.button2{background-color: grey;}
+.button1,.button2{
+        color: white;
+        padding: 10px;
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius:50px;
+        cursor: pointer;
+}
+.button1:hover,.button2:hover{
+    color: gold;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+
+.facebook{
+    position: absolute;
+    top:220px;
+    left:700px;
+}
+.google{
+    position: absolute;
+    top:280px;
+    left:700px
+}
+
+.inputone input,.inputtwo input{
+    
+    border: none;
+    background: none;
+    outline: none;
+    color: whitesmoke
+    
+}
+.inputone,.inputtwo{
+    border-bottom: 1px solid gold
+}
+
+.line{
+    width: 100px;
+    height: 280px;
+    position: absolute;
+    top:140px; left: 590px;
+    border-left: 1px solid gold
+}
+
+
+.lastdiv{
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    background-color:rgba(0,0,0,0.5);
+    left:90px;
+    width:788px;
+    top:450px;
+    
+}
+

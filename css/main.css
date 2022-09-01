@@ -1,0 +1,238 @@
+/*Main Rulez*/
+
+body {
+  padding-top: 30px;
+  background-image: url(../images/homepage/Background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: sticky;
+}
+
+/*Start Nav Bar*/
+
+/*Start Main Navbar*/
+
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+
+/*End Main Navbar*/
+
+/*Start logo*/
+
+.logo-span {
+  color: goldenrod;
+  display: inline;
+}
+
+.navbar-brand {
+  margin-top: 8px;
+}
+
+/*End logo*/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: goldenrod;
+}
+
+/*Start dropdown-menu*/
+
+.dropdown-menu {
+  background-color: #333;
+}
+
+.dropdown-menu > li > a {
+  margin: 7px;
+  color: blanchedalmond;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  font-size: 16px;
+  padding-left: 25px;
+}
+
+.dropdown-menu .divider {
+  background-color: goldenrod;
+}
+
+.navbar-right .dropdown-menu {
+  right: auto;
+  left: auto;
+}
+
+/*End dropdown-menu*/
+
+/*End Nav Bar*/
+
+/*Start Content*/
+
+.leftc,
+.rightc {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  border-radius: 100%;
+  text-align: center;
+  border: 2px dashed rgba(255, 255, 255, 0.5);
+  transition: all 0.35s ease;
+}
+
+.leftc:hover,
+.rightc:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px dashed rgba(255, 255, 255, 0.8);
+}
+
+.left,
+.right {
+  position: relative;
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
+.left:hover,
+.right:hover {
+  color: goldenrod;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.L-link,
+.R-link {
+  color: white;
+  transition: all 0.35s ease;
+  text-decoration: none;
+  position: relative;
+  top: 42%;
+}
+
+.L-link:hover,
+.R-link:hover {
+  color: goldenrod;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.L-link,
+.R-link {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: dashed #fff 3px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #333;
+    background-image: url(../images/homepage/MobBack.jpg);
+  }
+  .left,
+  .right {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .L-link,
+  .R-link {
+    font-size: 26px;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+    margin: 70px auto;
+  }
+}
+
+/*
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: #333;
+    background-image: url(../images/homepage/MobBack.jpg);
+  }
+  .left,
+  .right {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .L-link,
+  .R-link {
+    font-size: 26px;
+  }
+    .circle{
+          margin: 100px auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #333;
+    background-image: url(../images/homepage/Background.jpg);
+  }
+  .left,
+  .right {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .L-link,
+  .R-link {
+    font-size: 26px;
+  }
+    .circle{
+          margin: 100px auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  body {
+    margin-top: 150px;
+    background-image: url(../images/homepage/Background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: sticky;
+  }
+  .left,
+  .right {
+    margin-top: 125px;
+    margin-bottom: 125px;
+  }
+  .L-link,
+  .R-link {
+    font-size: 32px;
+  }
+
+}
+
+
+@media (max-width: 575.98px) {  }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) {  }

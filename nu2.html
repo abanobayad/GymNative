@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>NUTRITION - Science Gym</title>
+  <link rel="shortcut icon" href="images/homepage/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/norm.css">
+  <link rel="stylesheet" href="css/nu2.css">
+</head>
+
+
+<body>
+  <div class="T1">
+
+    <a class="main-title" href="nu1.html" title="Go to NUTRITION Page " > NUTRITION </a>
+
+    <div class="main">
+
+      <div>
+        <a href="#s" title="Calculate Your Body Mass ">Body Mass</a>
+      </div>
+
+      <div>
+        <a href="#s" title="Calculate Your Perfect Weight">Perfect Weight</a>
+      </div>
+
+      <div class="n3">
+        <a href="#s" title="Calculate Your Calories">Calories</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="T2">
+
+    <div class="D">
+
+      <div class="d1">
+        <form class="f1">
+
+          <div class="row">
+            <label id="s">Enter your Height </label>
+            <input type="number" maxlength=3 placeholder="Height in Cm" id="hei">
+          </div>
+
+          <div class="row">
+            <label>Enter your Weight </label>
+            <input type="number" maxlength=3 placeholder="Weight in Kg" id="wei">
+          </div>
+
+          <div class="row">
+            <label>Enter your age </label>
+            <input type="number" maxlength="2" placeholder="Age" id="age">
+          </div>
+
+        </form>
+      </div>
+
+      <div class="d2">
+        <form class="f2">
+
+          <div class="row">
+            <label>select your Gender </label>
+            <input style="color rgb(121, 62, 62);" type="radio" name="chek" id="s1" value="0"> Male
+            <input style="color black;" type="radio" name="chek" id="s2" value="1"> Female
+          </div>
+
+        </form>
+      </div>
+
+      <div class="d3">
+        <form class="f3">
+
+
+          <h3> How many time do exercise per week</h3>
+
+          <div class="check-row">
+            <div><input type="radio" name="chek" value="4" id="e3"> I am moderately active(Moderate exercise or sports
+              3-5 days per week)</div>
+            <br>
+            <div><input type="radio" name="chek" value="5" id="e4"> (Hard exercise or sports 6-7 days per week)</div>
+          </div>
+
+          <div class="check-row">
+            <div><input type="radio" name="chek" value="2" id="e1"> I am lazy (Do exercise or sports per week)</div>
+            <br>
+            <div><input type="radio" name="chek" value="3" id="e2"> I am Lightly active(Light exercise or sports 1-3
+              days per week)</div>
+          </div>
+
+          <a href="#rus"> <input class="submit-btn" type="button" value="Calculate" onclick="bmicheck();"> </a>
+
+        </form>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="K">
+      <h3 id="rus">Your Result</h3>
+    </div>
+
+    <div class="d4">
+      <form class="f4">
+
+        <div class="results-sec">
+
+          <div class="row">
+            <label>Result of body mass index is </label>
+            <input type="text" placeholder="BMI" readonly id="result1"><br>
+          </div>
+
+          <div class="row">
+            <label>Result of basal Metabolic rate(Total calories your body need it in day) is </label>
+            <input type="text" placeholder="BMR" readonly id="result2">
+          </div>
+
+          <div class="row">
+            <label>Your body category is </label>
+            <input type="text" placeholder="Category" readonly id="result4">
+          </div>
+
+          <div class="row">
+            <label>Your perfect weight is </label>
+            <input type="text" placeholder="Perfect weight" id="result5" readonly> in (Kg)
+          </div>
+
+        </div>
+
+        <div class="results-sec">
+
+          <div class="row">
+            <label>Total calories your body need it in day to lose your weight 500gm is </label>
+            <input type="text" placeholder="Calories you need it" id="result6" readonly>
+          </div>
+
+          <div class="row">
+            <label>Total calories your body need it in day to lose your weight 1000gm is </label>
+            <input type="text" placeholder="Calories you need it" id="result7" readonly>
+          </div>
+
+          <div class="row">
+            <label>Your amount of protein your body need it is </label>
+            <input type="text" placeholder="Protein you need it " id="result8" readonly> in (gm)
+          </div>
+
+          <div class="row">
+            <label>Your amount of carbohydrates your body need it is </label>
+            <input type="text" placeholder="Carbohydrates you need it" id="result9" readonly> in(gm)
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/nut.js"></script>
+
+</body>
+
+
+</html>

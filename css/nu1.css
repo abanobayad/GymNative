@@ -1,0 +1,48 @@
+body{
+    background-image:url("../Images/homepage/Background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    font-size: 20px;
+    font-family: Candara;
+   }
+   /*start Nav Style*/
+.Nav  { width: 100%; height: 15%; background-color: rgba(0,0,0,0.2); }
+.logo {width: 10%; height: 100%; opacity: 0.7; }
+.logo:hover {transform: scale(1.2); opacity: 1; transition: all 0.5s; }
+.navbar ul {float: right; margin-top: 33px; overflow: hidden;}
+.navbar ul , .navbar {display: inline;}
+.navbar ul li {list-style: none ; margin: 10px ; padding: 5px ; display: inline; font-size: 18px;}
+.navbar a {text-decoration: none ; color:gold;}
+.navbar a:hover {color: white; transition: all 0.5s;}
+/* end Nav Style*/
+   .D1{
+    text-align: center;
+   }
+   .B{
+       border: 1 px solid #700;
+       padding: 15px;
+       color: #fff;
+       background:goldenrod;
+       border-radius: 5px;
+       transition: all 0.5s;
+       font-size: 30px;
+   }
+  
+   .B:hover{
+    border: 1 px solid goldenrod;
+    padding: 15px;
+    color: goldenrod;
+    background:#fff;
+    border-radius: 5px;
+    transition: all 0.5s;
+    font-size: 30px;
+   }
+   .content 
+   {
+       background-color: rgba(192, 228, 223, 0.171);
+       width: 75%;
+       margin: auto;
+       padding: 15px;
+   }
+
+    
